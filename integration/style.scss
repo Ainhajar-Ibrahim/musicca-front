@@ -1,0 +1,186 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	background-color: #ebebeb;
+}
+a {
+	text-decoration: inherit;
+	color: inherit;
+}
+.navigationbar {
+	list-style-type: none;
+	overflow: hidden;
+	background-color: #ffffff;
+	height: 75px;
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.nav-left {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-right: 220px;
+}
+.nav-left-element {
+	float: left;
+	a {
+		display: block;
+		text-align: center;
+		padding-top: 10px;
+		padding-left: 15px;
+		padding-right: 20px;
+		padding-bottom: 10px;
+		text-decoration: none;
+		margin-top: 19px;
+		margin-left: 30px;
+		border-radius: 30px;
+		font-weight: 600;
+		font-size: 14px;
+		&:hover {
+			background-color: #eee;
+		}
+	}
+}
+.musicca-logo {
+	width: 180px;
+	margin-top: 21.15px;
+}
+.nav-right {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-left: 120px;
+	margin-right: 30px;
+}
+.nav-right-element {
+	float: right;
+	a {
+		display: block;
+		text-align: center;
+		padding-top: 10px;
+		padding-left: 15px;
+		padding-right: 20px;
+		padding-bottom: 10px;
+		text-decoration: none;
+		margin-top: 19px;
+		margin-right: 7px;
+		background-color: #47752d;
+		color: #ffffff;
+		font-weight: 600;
+		font-size: 14px;
+		border-radius: 30px;
+		&:hover {
+			background-color: #386120;
+			color: #ffffff;
+		}
+	}
+}
+.under-the-navbar {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.left-list {
+	list-style-type: none;
+	margin-top: 20px;
+	padding-left: 0;
+	width: 267.5px;
+	background-color: #ffffff;
+	margin-bottom: 250px;
+}
+.about_button {
+	background-color: #47752d;
+	color: white;
+}
+.left-list-element {
+	a {
+		font-size: 18px;
+		display: block;
+		padding: 20px 20px 20px 0px;
+		font-weight: 600;
+		margin-left: 30px;
+	}
+}
+.right-list {
+	display: flex;
+	flex-direction: column;
+}
+.list-title {
+	font-size: 36px;
+	font-weight: 400;
+	margin-left: 50px;
+	margin-bottom: 20px;
+	color: #565656;
+}
+.cards {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.card {
+	margin-left: 20px;
+	width: 391.25px;
+}
+.container {
+	background-color: #ffffff;
+}
+.card-title {
+	font-size: 20px;
+	font-weight: 600px;
+	padding-left: 30px;
+	padding-top: 30px;
+}
+.card-text {
+	font-size: 15px;
+	font-weight: 400px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 30px;
+}
+.form {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 67px;
+	margin-top: 20px;
+	background-color: #ffffff;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	width: 570px;
+}
+.ftitle {
+	font-size: 32px;
+}
+.input {
+	&:focus {
+		&:invalid {
+			outline: 1.5px solid red;
+		}
+	}
+	border: 0;
+	font-size: 16px;
+	height: 45px;
+	width: 440px;
+	padding-left: 10px;
+	outline: 1px solid #ebebeb;
+	&:hover {
+		outline: 1.5px solid #4ea41d;
+	}
+}
+.fbutton {
+	font-size: 14px;
+	text-align: center;
+	width: 450px;
+	height: 42px;
+	border-radius: 30px;
+	background-color: #47752d;
+	color: #ffffff;
+	border: none;
+	&:hover {
+		background-color: #386120;
+		color: #ffffff;
+	}
+}
